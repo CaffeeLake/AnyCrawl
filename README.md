@@ -43,7 +43,7 @@
 </div>
 
 Swiftproxy(https://www.swiftproxy.net/?ref=AnyCrawl) — High-performance residential proxies built for scraping, automation, and large-scale data collection. Access 80M+ rotating residential IPs across 195+ countries with stable connections, high anonymity, and developer-friendly integration. Ideal for AI agents, crawlers, browser automation, and anti-bot bypass workflows.
-Free trial available. Use code PROXY90 for an exclusive 10% discount.
+Free trial available. Use code **PROXY90** for an exclusive 10% discount.
 
 ## 📖 Overview
 
