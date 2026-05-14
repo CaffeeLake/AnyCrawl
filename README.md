@@ -137,6 +137,23 @@ curl -X POST "https://api.anycrawl.dev/v1/scrape" \
   }'
 ```
 
+#### Atlas Cloud Provider
+
+AnyCrawl supports Atlas Cloud as an OpenAI-compatible LLM provider for extraction and summarization workloads.
+
+- Official site: [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=AnyCrawl)
+- LLM base URL: `https://api.atlascloud.ai/v1`
+- Recommended env model format: `atlascloud/deepseek-v3`
+
+```bash
+ATLASCLOUD_BASE_URL=https://api.atlascloud.ai/v1
+ATLASCLOUD_API_KEY=your-atlascloud-api-key
+DEFAULT_LLM_MODEL=atlascloud/deepseek-v3
+DEFAULT_EXTRACT_MODEL=atlascloud/deepseek-v3
+```
+
+If you prefer file-based AI config, add an `atlascloud` provider entry in `ai.config.json` and map it to any Atlas Cloud model exposed through the OpenAI-compatible chat API.
+
 ### Site Crawling (Crawl)
 
 #### Example
